@@ -13,17 +13,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Shopping App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Lato',
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
-        inputDecorationTheme: InputDecorationTheme(
-          hintStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.blueGrey,
+        ),
+        inputDecorationTheme: const InputDecorationTheme(
+          hintStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 16,
+          ),
           prefixIconColor: Colors.grey,
-          border: OutlineInputBorder(
-              borderSide: BorderSide(color: Colors.grey),
-              borderRadius: BorderRadius.horizontal(
-                left: Radius.circular(50),
-              )),
         ),
       ),
       home: const HomePage(),
