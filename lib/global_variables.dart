@@ -1,11 +1,11 @@
-final product = [
+final products = [
   {
     'id': '0',
     'title': 'Men\'s Nike Shoes',
     'price': 50.00,
     'size': [8, 9, 10, 11],
     'company': 'Nike',
-    'imageUrl': 'assets/images/nike.png',
+    'imageUrl': 'assets/images/shoes_1.png',
   },
   {
     'id': '1',
@@ -13,7 +13,7 @@ final product = [
     'price': 80.00,
     'size': [8, 9, 10, 11],
     'company': 'Nike',
-    'imageUrl': 'assets/images/nike2.png',
+    'imageUrl': 'assets/images/shoes_2.png',
   },
   {
     'id': '2',
@@ -21,7 +21,7 @@ final product = [
     'price': 110.00,
     'size': [8, 9, 10, 11],
     'company': 'Adidas',
-    'imageUrl': 'assets/images/adidas2.png',
+    'imageUrl': 'assets/images/shoes_3.png',
   },
   {
     'id': '3',
@@ -29,7 +29,7 @@ final product = [
     'price': 60.00,
     'size': [8, 9, 10, 11],
     'company': 'Bata',
-    'imageUrl': 'assets/images/bata.png',
+    'imageUrl': 'assets/images/shoes_4.png',
   },
 ];
 
