@@ -19,6 +19,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blueGrey,
         ),
+        appBarTheme: const AppBarTheme(
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            color: Colors.black,
+          ),
+        ),
         inputDecorationTheme: const InputDecorationTheme(
           hintStyle: TextStyle(
             fontWeight: FontWeight.bold,
@@ -27,14 +33,20 @@ class MyApp extends StatelessWidget {
           prefixIconColor: Colors.grey,
         ),
         textTheme: const TextTheme(
-            titleMedium: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 20,
-            ),
-            bodySmall: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 16,
-            )),
+          titleLarge: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 35,
+          ),
+          titleMedium: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+          bodySmall: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 16,
+          ),
+        ),
+        useMaterial3: true,
       ),
       home: const HomePage(),
     );
