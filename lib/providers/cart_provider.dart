@@ -8,6 +8,11 @@ class CartProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void editProductSize(int index, String newSize) {
+    cart[index]['size'] = newSize;
+    notifyListeners();
+  }
+
   void removeProduct(Map<String, dynamic> product) {
     cart.remove(product);
     notifyListeners();
